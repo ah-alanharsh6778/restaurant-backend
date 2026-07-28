@@ -1,112 +1,345 @@
-# RestaurantOS Backend
+# 🍽️ RestaurantOS Backend
 
-Production-ready initial backend project structure for **RestaurantOS** built with Node.js, Express.js, PostgreSQL, and Prisma ORM.
-
----
-
-## 🚀 Tech Stack
-
-- **Runtime:** Node.js
-- **Framework:** Express.js
-- **Database:** PostgreSQL
-- **ORM:** Prisma ORM
+Production-ready backend for **RestaurantOS – AI Powered Restaurant Management Platform**, built with **Node.js**, **Express.js**, **PostgreSQL**, and **Prisma ORM**. The backend provides secure REST APIs for restaurant operations including authentication, role-based access control, customer management, supplier management, AI invoice processing, inventory, orders, payments, reporting, and dashboard analytics.
 
 ---
 
-## 📁 Project Structure
+# 🚀 Tech Stack
+
+| Technology | Purpose |
+|------------|---------|
+| Node.js | JavaScript Runtime |
+| Express.js | REST API Framework |
+| PostgreSQL | Relational Database |
+| Prisma ORM | Database ORM |
+| JWT | Authentication |
+| BCrypt | Password Hashing |
+| Multer | File Upload |
+| Swagger | API Documentation |
+| Express Validator | Request Validation |
+| Morgan | Request Logging |
+| Helmet | Security Headers |
+| Cookie Parser | Cookie Management |
+| XLSX | Excel Processing |
+
+---
+
+# 📁 Project Structure
 
 ```
-restaurant-backend
+restaurant-backend/
 │
-├── src
-│   ├── config          # Database & third-party configurations
-│   ├── controllers     # Request handlers & HTTP responses
-│   ├── middleware      # Custom Express middleware (auth, error handling, etc.)
-│   ├── models          # Data access models
-│   ├── repositories    # Database query abstraction layer
-│   ├── routes          # Express API route definitions
-│   ├── services        # Business logic layer
-│   ├── validations     # Request validation schemas (express-validator)
-│   ├── utils           # Utility functions & helpers
-│   ├── constants       # Global constants & status codes
-│   ├── uploads         # Local file upload storage
-│   ├── app.js          # Express app configuration & middleware setup
-│   └── server.js       # HTTP server initialization
+├── prisma/
+│   └── schema.prisma
 │
-├── prisma
-│   └── schema.prisma   # Prisma schema configuration
+├── src/
 │
-├── .env                # Environment variables configuration
-├── package.json        # Dependencies & NPM scripts
-└── README.md           # Documentation
+│   ├── config/
+│   │   ├── database.js
+│   │   ├── prisma.js
+│   │   └── swagger.js
+│   │
+│   ├── controllers/
+│   │
+│   ├── middleware/
+│   │
+│   ├── models/
+│   │
+│   ├── repositories/
+│   │
+│   ├── routes/
+│   │
+│   ├── services/
+│   │
+│   ├── validations/
+│   │
+│   ├── utils/
+│   │
+│   ├── constants/
+│   │
+│   ├── uploads/
+│   │
+│   ├── app.js
+│   └── server.js
+│
+├── .env
+├── package.json
+└── README.md
 ```
 
 ---
 
-## 📦 Dependencies
+# 🏗️ Architecture
 
-### Core Dependencies
-- `express` - Fast, unopinionated web framework for Node.js
-- `cors` - Middleware to enable Cross-Origin Resource Sharing
-- `dotenv` - Zero-dependency module to load environment variables
-- `jsonwebtoken` - JSON Web Token implementation for authentication
-- `bcrypt` - Library to hash passwords securely
-- `multer` - Middleware for handling `multipart/form-data` (file uploads)
-- `pg` - PostgreSQL client for Node.js
-- `prisma` & `@prisma/client` - Next-generation ORM for Node.js & TypeScript
-- `helmet` - Security headers middleware
-- `morgan` - HTTP request logger middleware
-- `cookie-parser` - Parse HTTP request cookies
-- `express-validator` - String validators and sanitizers middleware
-- `xlsx` - Parser and writer for spreadsheets
+The backend follows a layered architecture for better scalability and maintainability.
 
-### Development Dependencies
-- `nodemon` - Automatically restart server on code changes
+```
+Client
+
+↓
+
+Routes
+
+↓
+
+Controllers
+
+↓
+
+Services
+
+↓
+
+Repositories
+
+↓
+
+Prisma ORM
+
+↓
+
+PostgreSQL
+```
 
 ---
 
-## ⚙️ Getting Started
+# ✨ Features
 
-### 1. Installation
+### Authentication
 
-Install all project dependencies:
+- JWT Authentication
+- Secure Password Hashing
+- Protected APIs
+- Login & Registration
+
+### User Management
+
+- User CRUD
+- Profile Management
+- Account Status
+
+### Role Based Access Control
+
+- Roles
+- Permissions
+- Authorization Middleware
+
+### Customer Management
+
+- Customer CRUD
+- Search
+- Pagination
+
+### Supplier Management
+
+- Supplier CRUD
+- Supplier Directory
+
+### Expense Management
+
+- Expense CRUD
+- Expense Categories
+
+### Restaurant Tables
+
+- Table Management
+- Occupancy Status
+
+### Orders
+
+- Order Creation
+- Order Management
+- Order Status
+
+### AI Invoice Processing
+
+- Invoice Upload
+- OCR Processing
+- AI Data Extraction
+- Invoice Parsing
+- Duplicate Detection
+- Automatic Expense Creation
+
+### Inventory
+
+- Ingredients
+- Stock Management
+
+### Reports
+
+- Dashboard Analytics
+- Sales Reports
+- Expense Reports
+
+---
+
+# 📦 Core Dependencies
+
+- express
+- prisma
+- @prisma/client
+- pg
+- cors
+- dotenv
+- jsonwebtoken
+- bcrypt
+- multer
+- helmet
+- morgan
+- cookie-parser
+- express-validator
+- xlsx
+
+---
+
+# 🛠️ Development Dependencies
+
+- nodemon
+
+---
+
+# ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Go to project directory
+
+```bash
+cd restaurant-backend
+```
+
+Install dependencies
 
 ```bash
 npm install
 ```
 
-### 2. Environment Configuration
+---
 
-The project uses `.env` file for environment configurations. Adjust settings as required:
+# 🔐 Environment Variables
+
+Create a `.env` file.
 
 ```env
 PORT=5000
+
 NODE_ENV=development
+
 DATABASE_URL="postgresql://postgres:postgres@localhost:5432/restaurantos?schema=public"
+
 JWT_SECRET="restaurantos_super_secret_jwt_key_2026"
 ```
 
-### 3. Running the Server
+---
 
-- **Development Mode (with auto-reload):**
-  ```bash
-  npm run dev
-  ```
+# 🗄️ Database Setup
 
-- **Production Mode:**
-  ```bash
-  npm start
-  ```
+Generate Prisma Client
+
+```bash
+npx prisma generate
+```
+
+Run Migrations
+
+```bash
+npx prisma migrate dev
+```
 
 ---
 
-## 🏥 Health Endpoint
+# ▶️ Run Application
 
-- **Route:** `GET /api/health`
-- **Response:**
-  ```json
-  {
-    "success": true,
-    "message": "RestaurantOS Backend Running"
-  }
-  ```
+Development
+
+```bash
+npm run dev
+```
+
+Production
+
+```bash
+npm start
+```
+
+---
+
+# 📖 API Documentation
+
+Swagger Documentation
+
+```
+http://localhost:5000/api/docs
+```
+
+---
+
+# 🏥 Health Check
+
+### Endpoint
+
+```
+GET /api/health
+```
+
+### Response
+
+```json
+{
+  "success": true,
+  "message": "RestaurantOS Backend Running"
+}
+```
+
+---
+
+# 🔒 Security
+
+- JWT Authentication
+- Password Encryption
+- Protected Routes
+- Request Validation
+- Security Headers
+- Cookie Support
+
+---
+
+# 📊 Database
+
+- PostgreSQL
+- Prisma ORM
+- Relational Database Design
+- Migration Support
+
+---
+
+# 🚀 Deployment
+
+The backend can be deployed on any Node.js-supported hosting platform.
+
+Examples:
+
+- Render
+- Railway
+- DigitalOcean
+- AWS EC2
+- Azure
+- Docker
+
+---
+
+# 👨‍💻 Author
+
+**Harsh Singh**
+
+Java Full Stack Developer
+
+---
+
+# 📄 License
+
+This project was developed as part of the **RestaurantOS – AI Powered Restaurant Management Platform** technical assessment.
