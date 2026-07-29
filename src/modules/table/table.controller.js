@@ -6,7 +6,7 @@ const createTable = asyncHandler(async (req, res) => {
   return res.status(201).json({
     success: true,
     message: 'Table created successfully',
-    data: table
+    data: table,
   });
 });
 
@@ -15,7 +15,7 @@ const getAllTables = asyncHandler(async (req, res) => {
   return res.status(200).json({
     success: true,
     data: result.tables,
-    pagination: result.pagination
+    pagination: result.pagination,
   });
 });
 
@@ -24,7 +24,7 @@ const getTableById = asyncHandler(async (req, res) => {
   const table = await tableService.getTableById(id);
   return res.status(200).json({
     success: true,
-    data: table
+    data: table,
   });
 });
 
@@ -34,7 +34,7 @@ const updateTable = asyncHandler(async (req, res) => {
   return res.status(200).json({
     success: true,
     message: 'Table updated successfully',
-    data: table
+    data: table,
   });
 });
 
@@ -43,7 +43,7 @@ const deleteTable = asyncHandler(async (req, res) => {
   await tableService.deleteTable(id);
   return res.status(200).json({
     success: true,
-    message: 'Table deleted successfully'
+    message: 'Table deleted successfully',
   });
 });
 
@@ -51,7 +51,7 @@ const getTableAvailability = asyncHandler(async (req, res) => {
   const stats = await tableService.getTableAvailability();
   return res.status(200).json({
     success: true,
-    data: stats
+    data: stats,
   });
 });
 
@@ -62,7 +62,37 @@ const updateTableStatus = asyncHandler(async (req, res) => {
   return res.status(200).json({
     success: true,
     message: `Table status updated to ${table.status}`,
-    data: table
+    data: table,
+  });
+});
+
+const bookTable = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const table = await tableService.bookTable(id, req.body);
+  return res.status(200).json({
+    success: true,
+    message: 'Table booked successfully and customer attached',
+    data: table,
+  });
+});
+
+const checkInTable = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const table = await tableService.checkInTable(id);
+  return res.status(200).json({
+    success: true,
+    message: 'Guest checked in successfully. Table is now occupied.',
+    data: table,
+  });
+});
+
+const cancelTableBooking = asyncHandler(async (req, res) => {
+  const { id } = req.params;
+  const table = await tableService.cancelTableBooking(id);
+  return res.status(200).json({
+    success: true,
+    message: 'Table booking cancelled and table freed to available.',
+    data: table,
   });
 });
 
@@ -73,5 +103,8 @@ module.exports = {
   updateTable,
   deleteTable,
   getTableAvailability,
-  updateTableStatus
+  updateTableStatus,
+  bookTable,
+  checkInTable,
+  cancelTableBooking,
 };

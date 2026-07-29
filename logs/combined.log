@@ -599,3 +599,882 @@
 {"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 08:34:54"}
 {"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 08:34:54"}
 {"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785252894208' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 08:34:54"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276202655-361522889.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 3cb597b2-869e-40f1-ae08-a8b89e2dface. Created Expense ID: da1439bb-ad68-4738-b633-4fbb8b10e044","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 3cb597b2-869e-40f1-ae08-a8b89e2dface","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276202655-361522889.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276202793-229595983.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 6664a538-1332-4d4a-8cb6-658ee8c2f27a. Created Expense ID: a57aa07c-d31c-4a55-bebc-8147838e5430","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276202816-477938721.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785276202791' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 15:03:22"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276318055-233143785.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 05069b7b-3232-409b-a30e-d396ac318c90. Created Expense ID: 8c79b08d-6ddc-4ea9-9d4b-470d1d825398","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 05069b7b-3232-409b-a30e-d396ac318c90","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276318055-233143785.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276318125-254213527.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 97a47956-5744-4fd6-91fd-07a89447b781. Created Expense ID: 8a4925a1-069d-46c5-ae13-b57ae67acf46","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276318145-908048439.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785276318122' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 15:05:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276697706-579491738.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 92d9ccdf-2d75-4574-bc74-868c9d547c49. Created Expense ID: 023d15d3-2a2a-4743-b87c-c89c20f67d7b","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 92d9ccdf-2d75-4574-bc74-868c9d547c49","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276697706-579491738.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276697821-579974033.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 6c6c9c86-0ed3-4c46-932c-4d29ef283b7a. Created Expense ID: db7cb0b2-0d34-4ef6-975d-e42a89c7f820","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785276697842-165657190.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785276697818' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 15:11:37"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785278620133-327460463.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 2236daad-5339-4b71-9cb0-06b6492b6477. Created Expense ID: 5eb18e9f-b7e4-460f-91bd-a2713a696436","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 2236daad-5339-4b71-9cb0-06b6492b6477","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785278620133-327460463.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785278620255-650958689.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: f8ae14ea-ed83-40c3-96e2-6a0c473ba016. Created Expense ID: 83fdeeea-30db-409d-a49a-c8b218d4b7be","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785278620279-842504467.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785278620252' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 15:43:40"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:07:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280077964-440668048.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:07:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:07:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:07:57"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: df11ff9f-a306-4736-8969-3a79a772dd6a. Created Expense ID: 54a03242-6b46-4801-a4b6-2f2bdb8b9b4a","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: df11ff9f-a306-4736-8969-3a79a772dd6a","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280077964-440668048.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280078147-648516745.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 6b01e754-8d8f-4f46-85a6-e9c3ce716740. Created Expense ID: b00e4739-9e62-456e-ba83-a110833370b5","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280078176-988115393.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785280078145' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:07:58"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280289879-403124990.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 18a8ab03-768c-4ada-b771-b5029498a682. Created Expense ID: b8bba3ee-f992-46c9-9963-c5cd13b9228b","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 18a8ab03-768c-4ada-b771-b5029498a682","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280289879-403124990.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:11:29"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280290010-16322888.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1e0e6ea5-3b61-4ea1-9158-639cd29beb35. Created Expense ID: ed0aab62-ab51-4ca8-9ef4-ee44775b7a95","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785280290038-679406740.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785280290007' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:11:30"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281013661-456804965.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1685983d-f571-4012-9ce7-83610ed7073b. Created Expense ID: cd08e481-b613-4eec-a7b5-b2968091afc6","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 1685983d-f571-4012-9ce7-83610ed7073b","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281013661-456804965.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281013776-996757697.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: c45ae715-b548-4c9e-8840-08248c033ddf. Created Expense ID: c5095658-b53f-4f7f-ad12-b08f22f643b4","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281013799-999466597.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785281013774' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:23:33"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281355340-260680920.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1e107123-f178-4a59-8c19-c06fc148f0ea. Created Expense ID: 23340116-c081-4887-8a1b-deacdf89bfc6","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 1e107123-f178-4a59-8c19-c06fc148f0ea","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281355340-260680920.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281355526-895243810.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 65dba0a4-4462-4b27-be4f-1bbde2a76410. Created Expense ID: 03941366-cb4a-4ced-bf44-58478e58f6d6","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281355566-843792110.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785281355523' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:29:15"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:33:30"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281610970-210409456.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:33:30"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:33:30"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:33:30"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: dbb16927-3407-4552-a1f9-a2607602a0ab. Created Expense ID: c4834156-8a6c-4070-906c-5e30b8b240ca","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: dbb16927-3407-4552-a1f9-a2607602a0ab","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281610970-210409456.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281611101-910054925.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 25371331-cdb2-40a0-97d2-2c2fa0e5b415. Created Expense ID: 7f995bfd-a819-4d49-9b01-0a9dc255bc60","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281611123-575160474.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785281611099' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:33:31"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281789867-219880538.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: e18b2e46-06fe-48a2-9b1f-4e92096dcd16. Created Expense ID: 60d7a9c1-a3a5-47b3-b9e9-a2981985c96a","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: e18b2e46-06fe-48a2-9b1f-4e92096dcd16","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281789867-219880538.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281789986-521583739.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:36:29"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 30a6fd9b-da80-4090-ac48-b59f97a62941. Created Expense ID: fb1ef5ab-f045-42fc-82e4-2436379f7889","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281790008-836787258.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785281789983' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:36:30"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281960104-643431450.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 4970ba95-37af-4cbc-927f-9e67b2f22171. Created Expense ID: 848ba8c4-31a4-402e-8140-bd1ccd13bfc5","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 4970ba95-37af-4cbc-927f-9e67b2f22171","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281960104-643431450.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281960199-840534130.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 96ad60bd-25cb-4a02-9b05-6367a14440c1. Created Expense ID: 3511c2d4-c280-40f4-8d16-e1a3b443c5c4","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785281960236-671620961.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785281960196' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:39:20"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282143443-97953001.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 9e9d7bf5-a192-4bef-8759-0e3fd7586ce7. Created Expense ID: 69bae3f5-c220-442a-a5e7-470c4df1a29f","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 9e9d7bf5-a192-4bef-8759-0e3fd7586ce7","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282143443-97953001.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282143575-486870105.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: be35582d-f8da-4a66-92b6-3997db4800d0. Created Expense ID: 2e78ab7b-3a4b-4a79-aa0d-b557d3a5e8ee","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282143599-193308854.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785282143573' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:42:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282434067-446324320.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 557a2175-5f29-4af4-a1f6-17157aff2b3c. Created Expense ID: 1274884c-b4d6-4b46-b9f2-c79c9dd3cfad","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 557a2175-5f29-4af4-a1f6-17157aff2b3c","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282434067-446324320.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282434213-583232548.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: da77e641-72cf-4855-88f8-04f446841586. Created Expense ID: 6361a9ec-51f8-408e-a44f-ffdc98ccc1d0","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282434242-934029225.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785282434210' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:47:14"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282738022-994074170.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: e03a7320-8f9a-4287-9144-b7c0affe3157. Created Expense ID: 05c93291-8c16-4e0f-8393-192601fd3d8e","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: e03a7320-8f9a-4287-9144-b7c0affe3157","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282738022-994074170.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282738158-293232517.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 638555c5-563d-4a61-a790-7ecb5d9c207f. Created Expense ID: 4130314d-ffcd-480b-a673-bd0d23dfac22","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282738190-61802562.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785282738156' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:52:18"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282970350-969621095.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1bda54d4-92c5-431f-8316-b26faf7dd23d. Created Expense ID: 792bcdc6-6252-4ec6-950b-3a392ff94510","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 1bda54d4-92c5-431f-8316-b26faf7dd23d","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282970350-969621095.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282970527-527137330.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1b3f3f9e-fa4b-4c05-a7d3-68f1201326ce. Created Expense ID: 19ee0280-6c31-460e-ac84-300782d6830d","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785282970562-909513345.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785282970523' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 16:56:10"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785283208065-741267026.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 47c5e39a-87d1-4735-9bbe-33f5466780d9. Created Expense ID: 5530e499-33f4-46b0-b0b8-369a98e52850","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 47c5e39a-87d1-4735-9bbe-33f5466780d9","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785283208065-741267026.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785283208210-354769153.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: ed6e4bf3-de0b-4457-918d-96c5edb9b66f. Created Expense ID: 00f9e67f-c394-4fcd-b3a8-835f97395619","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785283208245-100898072.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785283208207' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 17:00:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785285872087-63185704.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: e04da856-9523-4623-840e-aece83e075a1. Created Expense ID: 8d9fa3d9-86df-4666-a687-3316ea02963d","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: e04da856-9523-4623-840e-aece83e075a1","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785285872087-63185704.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785285872186-942397040.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 42542fb4-81ef-4d31-a7a4-b058bdf7d946. Created Expense ID: 590d169a-9642-48f1-8948-21994ef6830d","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785285872211-951248992.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785285872183' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 17:44:32"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286207475-330488106.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 199b5f5b-4c55-4efc-93a8-9be5e15cd2e5. Created Expense ID: a0b659ee-65ac-4725-9985-7a61ce904e39","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 199b5f5b-4c55-4efc-93a8-9be5e15cd2e5","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286207475-330488106.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286207583-113893132.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: c925624e-9036-49e8-a22a-b74f9dd116c2. Created Expense ID: 8e992e9f-4bb5-4d69-9a66-378ffab4dcd0","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286207605-378222732.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785286207580' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 17:50:07"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286435167-301076155.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 34aecfa4-2d97-4edc-aa35-30fbb3a4a5ba. Created Expense ID: 3549741b-5549-4940-8e77-32e654424dbe","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 34aecfa4-2d97-4edc-aa35-30fbb3a4a5ba","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286435167-301076155.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286435284-468232483.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 8904a963-cb92-4769-8f9e-3383e3b7e0b7. Created Expense ID: 5f3cf6a9-3c32-48d6-aea7-d04819e2aa8b","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286435311-178649206.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785286435281' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 17:53:55"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286703182-139249793.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 50f926c8-4572-4776-b07d-4bba03799c2a. Created Expense ID: 289c153c-13db-4867-a372-3b054d770952","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 50f926c8-4572-4776-b07d-4bba03799c2a","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286703182-139249793.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286703289-850287972.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: b333392e-cd83-4de2-9cd9-0b5cd1b70e1c. Created Expense ID: b88a35b1-5067-4739-ae0a-35fadb84acc6","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286703317-761095094.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785286703286' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 17:58:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286997774-519880011.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: e230da4f-04d7-48ff-abdf-ba9bf8f8b884. Created Expense ID: 8740e552-9e14-4750-a0a1-5a0af5cd8c13","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: e230da4f-04d7-48ff-abdf-ba9bf8f8b884","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286997774-519880011.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286997943-846174524.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 9cb01aa5-9833-43ab-a86a-5a5f8fdab348. Created Expense ID: f5c2ac90-04bd-4315-afeb-f6218c726ab3","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785286997973-597200732.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785286997940' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:03:17"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287785126-699356947.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: d8e1054e-f2aa-459a-9be9-ae6ec0bb55f3. Created Expense ID: bdd609bc-3003-4075-9163-9d3151dba857","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: d8e1054e-f2aa-459a-9be9-ae6ec0bb55f3","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287785126-699356947.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287785249-420656663.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: f981bdf5-091b-42e7-8988-6ca4400c02e3. Created Expense ID: 63d1f885-d44e-41fa-a0e0-91d90dca32ca","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287785286-591831178.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785287785244' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:16:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287820262-868905013.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: d0c96bcb-e983-461a-84ea-163dd9f37d20. Created Expense ID: 56a55d24-3601-4da3-86b0-fd0f4243d3a0","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: d0c96bcb-e983-461a-84ea-163dd9f37d20","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287820262-868905013.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287820399-910505538.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: a7f49462-4a08-4233-929f-5e5e109a2e68. Created Expense ID: 5e169908-91a6-4ba6-95d3-4db78dea2b44","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287820443-718739670.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785287820390' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:17:00"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287843833-846293761.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 41034e92-ae49-4232-a529-62cdb2bedcbc. Created Expense ID: 37dd5037-7e43-436c-b2f3-34c5d6335684","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 41034e92-ae49-4232-a529-62cdb2bedcbc","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287843833-846293761.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287843923-62668746.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 4343eade-0c1e-4035-bce4-e42025c27a5b. Created Expense ID: a9fbda86-4dda-4b7a-8200-17b7d32e716b","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287843955-44832512.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785287843920' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:17:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287881467-576150130.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: c993a415-6bd2-4bfc-9208-416532222e22. Created Expense ID: 68022aa1-2ec7-4222-9ee5-ba0ec99d5a69","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: c993a415-6bd2-4bfc-9208-416532222e22","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287881467-576150130.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287881596-445659713.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 0cc4f2a6-a67e-4ac7-9a7c-451a06b9389d. Created Expense ID: 838c593a-58c5-45df-9d9e-51384d2bfecb","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785287881633-335534285.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785287881593' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:18:01"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288060450-761458059.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 751f2e9b-c200-4159-9afa-e7adefc87525. Created Expense ID: 8d4e5648-a0e2-4508-9038-c674cf1b2652","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 751f2e9b-c200-4159-9afa-e7adefc87525","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288060450-761458059.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288060591-465833477.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: b283ac24-5781-427a-861c-f5e6e6df2188. Created Expense ID: 2ff1d083-d63a-4f27-9928-a9153bd0f45b","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288060628-64242172.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785288060587' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:21:00"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288061163-506293690.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:01"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:01"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:01"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288083065-968774190.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 62a737ec-f63e-4fae-bf29-a55439255a0c. Created Expense ID: 2df0e3b2-8658-443c-9f8b-30bea73d762d","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 62a737ec-f63e-4fae-bf29-a55439255a0c","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288083065-968774190.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288083167-649041539.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 28f2f626-9ed7-41bc-afd0-544b4c93d16d. Created Expense ID: 51ed1194-1099-4d71-970a-683dda352f1b","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288083201-804646331.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785288083163' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288083714-307406721.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:21:23"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288248622-671037323.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: ea24e6d5-cd78-4a0c-b4b0-e4b5b3f0a6e8. Created Expense ID: a8ea7b15-3692-4a55-b14b-ddd43a7fc0f4","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: ea24e6d5-cd78-4a0c-b4b0-e4b5b3f0a6e8","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288248622-671037323.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288248728-478138716.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 4b7d5b05-31fb-431b-9a6c-7e20ee4522d3. Created Expense ID: ea937ba4-71b4-4fba-85c6-aa7979580e1a","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288248757-609166267.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785288248725' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:24:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288249204-167966494.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:09"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:09"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:09"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288265152-323859295.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: b9ae47d6-68c0-494f-a663-6d5a07dde477. Created Expense ID: 0c6923b1-02f6-46d9-a6e0-c28fa94a429e","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: b9ae47d6-68c0-494f-a663-6d5a07dde477","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288265152-323859295.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288265308-754158046.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 10706d13-3731-4d3f-b2bf-ae78c98317ce. Created Expense ID: 4244665d-553f-4b41-bd69-4f28e0156f8b","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288265346-259376479.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785288265305' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288265889-597984587.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:24:25"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288444018-163289423.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: f3039419-83f6-427d-ab38-0e2485aa30eb. Created Expense ID: cb94633b-cd68-496b-98e8-5ce974d87e54","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: f3039419-83f6-427d-ab38-0e2485aa30eb","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288444018-163289423.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288444135-568340136.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: add0f8cc-a12d-4d3c-9038-a23e4aa875c0. Created Expense ID: f3ad6753-14e1-45a9-94f2-f8a11ed26c52","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785288444166-928908504.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785288444133' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260008 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260008 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288444656-3902989.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:27:24"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260008 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 18:34:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785288904432-203611545.png with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:35:04"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:35:04"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:35:04"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785289814266-474614757.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 09ea5c94-c649-4632-ae8f-24e117754f5d. Created Expense ID: 927c2f6e-1630-4d68-983a-7201058f4e20","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 09ea5c94-c649-4632-ae8f-24e117754f5d","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785289814266-474614757.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785289814395-886231482.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: c99eb1e5-f0fc-4dbe-af03-3c2dd2442514. Created Expense ID: 553533a7-aa0e-4054-a787-b7a0c63388b4","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785289814427-986757870.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785289814392' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260009 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260009 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 18:50:14"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785289815002-648193482.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 18:50:15"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 18:50:15"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 18:50:15"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785290795605-720130360.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1716f1d8-24b5-4fd5-84c5-a18ed7b3ba5e. Created Expense ID: 5bba234e-f1af-4193-84c4-c493468c4aec","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 1716f1d8-24b5-4fd5-84c5-a18ed7b3ba5e","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785290795605-720130360.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785290795742-253998027.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: f560a0e1-f76f-4c8a-82ba-ecb47883867b. Created Expense ID: 086fba70-11f3-47e7-8892-240e4432d949","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785290795764-915210859.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785290795740' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 19:06:35"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260010 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 19:06:36"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260010 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 19:06:36"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785290796465-361732048.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 19:06:36"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 19:06:36"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 19:06:36"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785303957113-143305535.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 40466567-045e-47e7-9b8b-c43965808e81. Created Expense ID: ff49a054-2294-4761-8840-24af7793d2e1","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 40466567-045e-47e7-9b8b-c43965808e81","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785303957113-143305535.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785303957806-645681217.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 9497d59a-6b7e-4d01-b1b8-f147d389ce56. Created Expense ID: 14d12cb6-d031-4ff1-9830-8a4e3807ce48","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785303957963-841989520.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:45:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785303957741' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260011 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260011 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785303958972-949669870.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:45:58"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:45:59"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785304325842-20702421.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 79127ceb-5e54-475e-a530-4c1bebeaa5b7. Created Expense ID: 0a0cb419-435d-4497-a317-991ddf3fb507","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 79127ceb-5e54-475e-a530-4c1bebeaa5b7","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785304325842-20702421.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:52:05"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785304326015-423889262.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 7aefdaa6-1c10-45d7-9346-6539b084b3d9. Created Expense ID: b164e809-b0bf-472b-9479-ce7322d4db7d","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785304326063-439733641.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785304326009' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260012 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260012 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785304326758-657709371.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 22:52:06"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306394492-518679179.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 7aefa59e-5dab-41a2-83ea-8797b81b2617. Created Expense ID: 004e6875-b873-45f3-b7d0-4d367257ca12","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 7aefa59e-5dab-41a2-83ea-8797b81b2617","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306394492-518679179.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306394630-824992939.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 5dd2007a-b99c-4f30-8c68-c8219da3116b. Created Expense ID: 3ae4903b-5fcd-4402-b994-2a5bf9f38b47","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306394673-993268173.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785306394622' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:26:34"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260014 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:26:35"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260014 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:26:35"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785306395359-418519799.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:26:35"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:26:35"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:26:35"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306548532-595701323.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 1a70a5da-f725-49ca-81f4-759b057a912b. Created Expense ID: 4e3089d1-8930-454a-805f-4b0bf5433e58","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 1a70a5da-f725-49ca-81f4-759b057a912b","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306548532-595701323.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306548704-718024186.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 19c74772-77ef-45b2-8938-d3b06397fcef. Created Expense ID: 7084f00a-175d-442d-886c-6de99d313bac","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306548766-278101628.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785306548693' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:29:08"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260015 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:29:09"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260015 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:29:09"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785306549651-65620601.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:29:09"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:29:09"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:29:09"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306885038-390569650.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 0bfb571c-8845-4e73-a765-5a1eb478ed97. Created Expense ID: 6bc076a4-17a6-4ad2-adc5-186666cc9250","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 0bfb571c-8845-4e73-a765-5a1eb478ed97","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306885038-390569650.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306885215-863100334.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: cec5f937-46b3-41f6-9363-3fa3ed95cc77. Created Expense ID: 6dfdc4ca-70e7-426f-860b-79dfe816b300","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785306885257-201203456.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785306885208' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260016 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260016 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785306885984-172580260.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:34:45"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:34:46"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307072408-273834743.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: dd23413c-3095-4292-b6b9-9e328d9ba71f. Created Expense ID: 79bd76a7-1360-4272-8d49-190ddaad98af","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: dd23413c-3095-4292-b6b9-9e328d9ba71f","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307072408-273834743.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307072577-428668799.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 4bb6f374-557a-41db-856c-13de9f38b5d2. Created Expense ID: 53537f65-399b-4240-afa6-06a320b3b605","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307072635-938720746.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785307072569' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:37:52"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260017 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:37:53"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260017 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:37:53"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785307073219-510736383.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:37:53"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:37:53"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:37:53"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307377229-762816391.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: b53978c2-c6db-446a-a9f9-4e954803e87f. Created Expense ID: 9c9975a1-2958-4faf-8a52-42de906ff68b","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: b53978c2-c6db-446a-a9f9-4e954803e87f","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307377229-762816391.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307377392-972374248.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: b14b0b3c-3421-4b5f-ab47-23b5118a89c8. Created Expense ID: 37f1b2a3-1d2d-4a75-a72a-325b71aa2678","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307377444-552613511.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785307377385' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260018 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260018 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:42:57"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785307378051-439800530.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:42:58"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:42:58"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:42:58"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307866182-888386108.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 466ef3de-e1c0-4230-8c7b-6cecab1fc205. Created Expense ID: 13e94688-d98f-4641-9ad8-99220710b02e","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 466ef3de-e1c0-4230-8c7b-6cecab1fc205","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307866182-888386108.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307866445-118008253.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 6fb144c0-8e8c-4423-b0c4-e141ceeef1fb. Created Expense ID: 1ecd3134-3771-42b9-9c56-79e68ac58d3d","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785307866527-909118570.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785307866436' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:51:06"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260019 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:51:07"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260019 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:51:07"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785307867472-337170397.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:51:07"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:51:07"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:51:07"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308008910-114112262.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 7cb6dda5-9fb4-4e54-b7bb-76a5bbd41388. Created Expense ID: 85c74a03-6c7c-4352-8497-1a247e1a45ca","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 7cb6dda5-9fb4-4e54-b7bb-76a5bbd41388","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308008910-114112262.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:53:28"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308009046-198757790.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 76fbca70-246f-411e-a216-d4b0864f58fd. Created Expense ID: 9a10476b-9e53-4fc2-b9a1-e12711be9c66","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308009088-116635992.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785308009041' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260020 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260020 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785308009637-732522136.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:53:29"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: test_invoice.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308252836-820333537.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 9928af6b-78a1-4d3b-b657-1c6415c88b06. Created Expense ID: 25f46b3b-af70-4cdb-a68f-204c49bb87f4","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[InvoiceService] Processing invoice ID: 9928af6b-78a1-4d3b-b657-1c6415c88b06","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308252836-820333537.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:57:32"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308253020-922246639.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[InvoiceService] Auto-processed invoice ID: 63ff56de-cc82-46fa-8233-46df1ff3376f. Created Expense ID: 76c23398-7854-4a04-9e39-da15f1a0ab42","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[InvoiceService] Uploading & auto-processing invoice file: Invoice_51109338_Copy.pdf","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/inv-1785308253083-208400979.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"warn","message":"[InvoiceService] Duplicate invoice upload blocked! Invoice #51109338 from 'Andrews Kirby 1785308253009' already exists.","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[EmailService] Simulated Email Dispatch: Purchase Order #PO-20260021 sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[EmailService] Payment Notification Email: PO #PO-20260021 paid $123 (Status: PAID) sent to billing@andrewskirby1785285872183.com","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[OCR] Running text extraction on E:/restaurant-backend/uploads/invoices/po-inv-1785308253695-359777232.pdf with provider 'fallback'","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"info","message":"[AI Parser] Parsing OCR raw text to structured JSON invoice DTO","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}
+{"level":"warn","message":"[AI Parser] AI microservice call skipped or timed out: ","service":"restaurant-backend","timestamp":"2026-07-28 23:57:33"}

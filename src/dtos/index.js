@@ -20,6 +20,33 @@ class TableDTO {
     this.tableNumber = table.tableNumber;
     this.capacity = table.capacity;
     this.status = table.status;
+    this.customerId = table.customerId || null;
+    this.customer = table.customer
+      ? {
+          id: table.customer.id,
+          fullName: table.customer.fullName,
+          phone: table.customer.phone,
+          email: table.customer.email,
+        }
+      : null;
+    this.reservations = table.reservations || [];
+    this.currentReservation =
+      table.reservations && table.reservations.length > 0 ? table.reservations[0] : null;
+    this.booking = this.currentReservation
+      ? {
+          id: this.currentReservation.id,
+          customerName: table.customer?.fullName || 'Guest',
+          phone: table.customer?.phone || 'N/A',
+          email: table.customer?.email || null,
+          guests: this.currentReservation.guestCount,
+          date: this.currentReservation.bookingDate,
+          time: this.currentReservation.bookingTime,
+          specialNotes: this.currentReservation.specialNotes,
+          status: this.currentReservation.status,
+        }
+      : null;
+    this.currentOrder =
+      table.orders && table.orders.length > 0 ? table.orders[0] : null;
     this.createdAt = table.createdAt;
     this.updatedAt = table.updatedAt;
   }
@@ -97,17 +124,29 @@ class PurchaseOrderDTO {
     this.poNumber = po.poNumber;
     this.supplierId = po.supplierId;
     this.supplier = po.supplier ? new SupplierDTO(po.supplier) : null;
+    this.warehouseId = po.warehouseId || null;
+    this.warehouse = po.warehouse ? { id: po.warehouse.id, name: po.warehouse.name, location: po.warehouse.location } : null;
     this.status = po.status;
-    this.totalAmount = po.totalAmount;
+    this.paymentStatus = po.paymentStatus || 'PENDING';
+    this.subtotal = po.subtotal !== undefined ? po.subtotal : (po.totalAmount || 0);
+    this.gstAmount = po.gstAmount || 0;
+    this.discountAmount = po.discountAmount || 0;
+    this.shippingAmount = po.shippingAmount || 0;
+    this.grandTotal = po.grandTotal !== undefined ? po.grandTotal : (po.totalAmount || 0);
+    this.totalAmount = po.grandTotal !== undefined ? po.grandTotal : (po.totalAmount || 0);
+    this.notes = po.notes || null;
     this.expectedDelivery = po.expectedDelivery || null;
     this.purchaseItems = po.purchaseItems
       ? po.purchaseItems.map((item) => ({
           id: item.id,
-          ingredientId: item.ingredientId,
+          ingredientId: item.ingredientId || null,
+          productId: item.productId || null,
           quantity: item.quantity,
+          receivedQuantity: item.receivedQuantity || 0,
           price: item.price,
           subtotal: item.subtotal,
-          ingredient: item.ingredient ? new IngredientDTO(item.ingredient) : null
+          ingredient: item.ingredient ? new IngredientDTO(item.ingredient) : null,
+          product: item.product ? { id: item.product.id, name: item.product.name, sku: item.product.sku, unit: item.product.unit } : null
         }))
       : [];
     this.createdAt = po.createdAt;

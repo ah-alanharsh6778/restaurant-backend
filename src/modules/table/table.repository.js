@@ -3,7 +3,20 @@ const prisma = require('../../config/prisma');
 class TableRepository {
   async create(data) {
     return prisma.restaurantTable.create({
-      data
+      data,
+      include: {
+        customer: true,
+        reservations: {
+          where: { isDeleted: false },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+        orders: {
+          where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
     });
   }
 
@@ -11,14 +24,37 @@ class TableRepository {
     return prisma.restaurantTable.findUnique({
       where: { id },
       include: {
-        orders: true
-      }
+        customer: true,
+        reservations: {
+          where: { isDeleted: false },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+        orders: {
+          where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
     });
   }
 
   async findByTableNumber(tableNumber) {
     return prisma.restaurantTable.findUnique({
-      where: { tableNumber }
+      where: { tableNumber },
+      include: {
+        customer: true,
+        reservations: {
+          where: { isDeleted: false },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+        orders: {
+          where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
     });
   }
 
@@ -32,9 +68,22 @@ class TableRepository {
         where,
         skip: skip !== undefined ? parseInt(skip, 10) : undefined,
         take: take !== undefined ? parseInt(take, 10) : undefined,
-        orderBy: { tableNumber: 'asc' }
+        orderBy: { tableNumber: 'asc' },
+        include: {
+          customer: true,
+          reservations: {
+            where: { isDeleted: false, status: { in: ['CONFIRMED', 'CHECKED_IN'] } },
+            orderBy: { createdAt: 'desc' },
+            take: 1,
+          },
+          orders: {
+            where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+            orderBy: { createdAt: 'desc' },
+            take: 1,
+          },
+        },
       }),
-      prisma.restaurantTable.count({ where })
+      prisma.restaurantTable.count({ where }),
     ]);
 
     return { items, total };
@@ -43,7 +92,20 @@ class TableRepository {
   async update(id, data) {
     return prisma.restaurantTable.update({
       where: { id },
-      data
+      data,
+      include: {
+        customer: true,
+        reservations: {
+          where: { isDeleted: false },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+        orders: {
+          where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
     });
   }
 
@@ -53,7 +115,7 @@ class TableRepository {
       prisma.restaurantTable.count({ where: { status: 'AVAILABLE' } }),
       prisma.restaurantTable.count({ where: { status: 'OCCUPIED' } }),
       prisma.restaurantTable.count({ where: { status: 'RESERVED' } }),
-      prisma.restaurantTable.count({ where: { status: 'MAINTENANCE' } })
+      prisma.restaurantTable.count({ where: { status: 'MAINTENANCE' } }),
     ]);
 
     return { total, available, occupied, reserved, maintenance };
@@ -62,13 +124,58 @@ class TableRepository {
   async updateStatus(id, status) {
     return prisma.restaurantTable.update({
       where: { id },
-      data: { status }
+      data: { status },
+      include: {
+        customer: true,
+        reservations: {
+          where: { isDeleted: false },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+        orders: {
+          where: { isDeleted: false, status: { notIn: ['COMPLETED', 'CANCELLED'] } },
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
     });
   }
 
   async delete(id) {
     return prisma.restaurantTable.delete({
-      where: { id }
+      where: { id },
+    });
+  }
+
+  // Reservation Helper Methods
+  async createReservation(data) {
+    return prisma.reservation.create({
+      data,
+      include: {
+        customer: true,
+        table: true,
+      },
+    });
+  }
+
+  async findActiveReservation(tableId) {
+    return prisma.reservation.findFirst({
+      where: {
+        tableId,
+        isDeleted: false,
+        status: { in: ['CONFIRMED', 'CHECKED_IN'] },
+      },
+      orderBy: { createdAt: 'desc' },
+      include: {
+        customer: true,
+      },
+    });
+  }
+
+  async updateReservationStatus(reservationId, status) {
+    return prisma.reservation.update({
+      where: { id: reservationId },
+      data: { status },
     });
   }
 }

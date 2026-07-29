@@ -8,16 +8,52 @@ class CustomerRepository {
   async findById(id) {
     return prisma.customer.findUnique({
       where: { id },
-      include: { orders: true }
+      include: {
+        orders: {
+          include: {
+            payments: true,
+            orderItems: {
+              include: { menuItem: true },
+            },
+          },
+          orderBy: { createdAt: 'desc' },
+        },
+        tables: {
+          select: { id: true, tableNumber: true, status: true, capacity: true },
+        },
+        reservations: {
+          include: {
+            table: true,
+          },
+          orderBy: { createdAt: 'desc' },
+        },
+      },
     });
   }
 
   async findByPhone(phone) {
-    return prisma.customer.findUnique({ where: { phone } });
+    return prisma.customer.findFirst({
+      where: {
+        phone: String(phone).trim(),
+        isDeleted: false,
+      },
+      include: {
+        tables: true,
+        reservations: {
+          orderBy: { createdAt: 'desc' },
+          take: 1,
+        },
+      },
+    });
   }
 
   async findByEmail(email) {
-    return prisma.customer.findUnique({ where: { email } });
+    return prisma.customer.findFirst({
+      where: {
+        email: String(email).trim(),
+        isDeleted: false,
+      },
+    });
   }
 
   async findAll(options = {}) {
@@ -31,9 +67,9 @@ class CustomerRepository {
           OR: [
             { fullName: { contains: search, mode: 'insensitive' } },
             { phone: { contains: search, mode: 'insensitive' } },
-            { email: { contains: search, mode: 'insensitive' } }
-          ]
-        }
+            { email: { contains: search, mode: 'insensitive' } },
+          ],
+        },
       ];
     }
 
@@ -42,9 +78,29 @@ class CustomerRepository {
         where,
         skip: skip !== undefined ? parseInt(skip, 10) : undefined,
         take: take !== undefined ? parseInt(take, 10) : undefined,
-        orderBy: { createdAt: 'desc' }
+        orderBy: { createdAt: 'desc' },
+        include: {
+          orders: {
+            select: { id: true, orderNumber: true, finalAmount: true, status: true, createdAt: true },
+          },
+          tables: {
+            select: { id: true, tableNumber: true, status: true },
+          },
+          reservations: {
+            select: {
+              id: true,
+              status: true,
+              bookingDate: true,
+              bookingTime: true,
+              guestCount: true,
+              table: { select: { id: true, tableNumber: true, status: true } },
+            },
+            orderBy: { createdAt: 'desc' },
+            take: 1,
+          },
+        },
       }),
-      prisma.customer.count({ where })
+      prisma.customer.count({ where }),
     ]);
 
     return { items, total };
@@ -57,7 +113,7 @@ class CustomerRepository {
   async delete(id) {
     return prisma.customer.update({
       where: { id },
-      data: { isDeleted: true, deletedAt: new Date() }
+      data: { isDeleted: true, deletedAt: new Date() },
     });
   }
 }

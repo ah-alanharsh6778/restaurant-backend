@@ -1,5 +1,6 @@
 const request = require('supertest');
 const app = require('../src/app');
+const prisma = require('../src/config/prisma');
 
 describe('RestaurantOS Backend Comprehensive Integration Test Suite', () => {
   let adminToken = '';
@@ -447,6 +448,125 @@ Gross worth: 6204,19`;
       .set('Authorization', `Bearer ${adminToken}`);
 
     expect(deleteRes.statusCode).toEqual(200);
+  });
+
+  it('Enterprise Purchase Order Module - Auto PO Numbering, Status Workflow, Payment Status, Financial Totals & Stock Receipt', async () => {
+    // 1. Fetch Existing Suppliers & Ingredients for PO Creation
+    const suppliersRes = await request(app)
+      .get('/api/suppliers')
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(suppliersRes.statusCode).toEqual(200);
+    const testSupplier = suppliersRes.body.data[0];
+
+    const ingredientsRes = await request(app)
+      .get('/api/ingredients')
+      .set('Authorization', `Bearer ${adminToken}`);
+    expect(ingredientsRes.statusCode).toEqual(200);
+    const testIngredient = ingredientsRes.body.data[0];
+
+    // 2. Create Purchase Order (Draft)
+    const poPayload = {
+      supplierId: testSupplier.id,
+      status: 'DRAFT',
+      paymentStatus: 'PENDING',
+      gstAmount: 18.0,
+      discountAmount: 5.0,
+      shippingAmount: 10.0,
+      notes: 'Automated test procurement',
+      expectedDelivery: new Date().toISOString(),
+      items: [
+        {
+          ingredientId: testIngredient.id,
+          quantity: 20,
+          price: 5.0
+        }
+      ]
+    };
+
+    const createPoRes = await request(app)
+      .post('/api/purchase-orders')
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send(poPayload);
+
+    expect(createPoRes.statusCode).toEqual(201);
+    expect(createPoRes.body.success).toBe(true);
+    expect(createPoRes.body.data.poNumber).toMatch(/^PO-\d{8}$/);
+    expect(createPoRes.body.data.status).toEqual('DRAFT');
+    expect(createPoRes.body.data.paymentStatus).toEqual('PENDING');
+    expect(createPoRes.body.data.subtotal).toEqual(100.0);
+    expect(createPoRes.body.data.grandTotal).toEqual(123.0); // 100 + 18 + 10 - 5 = 123
+    const poId = createPoRes.body.data.id;
+    const poItemId = createPoRes.body.data.purchaseItems[0].id;
+
+    // 3. Approve PO via Dedicated Route (PATCH /api/purchase-orders/:id/approve)
+    const approveRes = await request(app)
+      .patch(`/api/purchase-orders/${poId}/approve`)
+      .set('Authorization', `Bearer ${adminToken}`);
+
+    expect(approveRes.statusCode).toEqual(200);
+    expect(approveRes.body.data.status).toEqual('APPROVED');
+
+    // 4. Record Payment for PO (POST /api/purchase-orders/:id/payments)
+    const paymentRes = await request(app)
+      .post(`/api/purchase-orders/${poId}/payments`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .send({
+        amountPaid: 123.0,
+        paymentMethod: 'CASH',
+        notes: 'Full PO Settlement'
+      });
+
+    expect(paymentRes.statusCode).toEqual(200);
+    expect(paymentRes.body.data.paymentStatus).toEqual('PAID');
+
+    // 5. Get Printable PO HTML (GET /api/purchase-orders/:id/print)
+    const printRes = await request(app)
+      .get(`/api/purchase-orders/${poId}/print?format=html`)
+      .set('Authorization', `Bearer ${adminToken}`);
+
+    expect(printRes.statusCode).toEqual(200);
+    expect(printRes.text).toContain('RESTAURANTOS PROCUREMENT');
+
+    // 6. Get PDF Document Data (GET /api/purchase-orders/:id/pdf)
+    const pdfRes = await request(app)
+      .get(`/api/purchase-orders/${poId}/pdf`)
+      .set('Authorization', `Bearer ${adminToken}`);
+
+    expect(pdfRes.statusCode).toEqual(200);
+    expect(pdfRes.body.data.poNumber).toEqual(createPoRes.body.data.poNumber);
+
+    // 7. Receive Inbound Stock Items into Inventory
+    const warehouse = await prisma.warehouse.findFirst();
+    const warehouseId = warehouse ? warehouse.id : null;
+
+    if (warehouseId) {
+      const receiveRes = await request(app)
+        .post(`/api/purchase-orders/${poId}/receive`)
+        .set('Authorization', `Bearer ${adminToken}`)
+        .send({
+          warehouseId,
+          receivedItems: [
+            {
+              itemId: poItemId,
+              receivedQty: 20
+            }
+          ]
+        });
+
+      expect(receiveRes.statusCode).toEqual(200);
+      expect(receiveRes.body.data.status).toEqual('RECEIVED');
+    }
+
+    // 8. Upload Supplier Invoice with Auto Expense Creation (POST /api/purchase-orders/:id/upload-invoice)
+    const uploadRes = await request(app)
+      .post(`/api/purchase-orders/${poId}/upload-invoice`)
+      .set('Authorization', `Bearer ${adminToken}`)
+      .attach('file', Buffer.from('INVOICE #INV-PO-1002\nTotal: $123.00'), 'po_invoice.pdf');
+
+    expect(uploadRes.statusCode).toEqual(201);
+    expect(uploadRes.body.success).toBe(true);
+    expect(uploadRes.body.data).toHaveProperty('invoice');
+    expect(uploadRes.body.data).toHaveProperty('expense');
   });
 });
 
