@@ -1,0 +1,20 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.*
+
+# Logs
+logs/
+*.log
+
+# Prisma generated files
+node_modules/.prisma/
+
+# Uploads
+uploads/
+
+# OS files
+.DS_Store
+Thumbs.db
