@@ -47,19 +47,27 @@ app.use(
   })
 );
 
-// Strict Whitelist CORS Configuration
+// Flexible CORS Configuration supporting Vercel, Render & Whitelisted Origins
 const allowedOrigins = process.env.ALLOWED_ORIGINS
-  ? process.env.ALLOWED_ORIGINS.split(',')
+  ? process.env.ALLOWED_ORIGINS.split(',').map((o) => o.trim().replace(/\/$/, ''))
   : ['http://localhost:3000', 'http://localhost:5173', 'http://localhost:5000'];
 
 app.use(
   cors({
     origin: (origin, callback) => {
-      if (!origin || allowedOrigins.includes(origin)) {
-        callback(null, true);
-      } else {
-        callback(new Error('CORS policy violation: Origin not allowed'));
+      // Allow non-browser requests (Postman, mobile apps, server-to-server)
+      if (!origin) return callback(null, true);
+
+      const cleanOrigin = origin.trim().replace(/\/$/, '');
+      if (
+        allowedOrigins.includes(cleanOrigin) ||
+        cleanOrigin.endsWith('.vercel.app') ||
+        cleanOrigin.endsWith('.onrender.com') ||
+        process.env.NODE_ENV !== 'production'
+      ) {
+        return callback(null, true);
       }
+      return callback(null, false);
     },
     credentials: true,
     methods: ['GET', 'POST', 'PUT', 'DELETE', 'PATCH', 'OPTIONS'],
