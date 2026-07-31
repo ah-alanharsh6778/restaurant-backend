@@ -23,12 +23,26 @@ class InvoiceRepository {
     });
   }
 
-  async findDuplicate(invoiceNumber, supplierName, excludeId) {
+  async findDuplicate(invoiceNumber, supplierName, invoiceDate, totalAmount, excludeId) {
     if (!invoiceNumber || !supplierName) return null;
     const where = {
-      invoiceNumber: { equals: invoiceNumber, mode: 'insensitive' },
-      supplierName: { equals: supplierName, mode: 'insensitive' }
+      invoiceNumber: { equals: invoiceNumber.toString().trim(), mode: 'insensitive' },
+      supplierName: { equals: supplierName.toString().trim(), mode: 'insensitive' },
     };
+
+    if (invoiceDate) {
+      const d = new Date(invoiceDate);
+      if (!isNaN(d.getTime())) {
+        const startOfDay = new Date(d.getFullYear(), d.getMonth(), d.getDate());
+        const endOfDay = new Date(d.getFullYear(), d.getMonth(), d.getDate(), 23, 59, 59, 999);
+        where.invoiceDate = { gte: startOfDay, lte: endOfDay };
+      }
+    }
+
+    if (typeof totalAmount === 'number' && totalAmount > 0) {
+      where.totalAmount = { gte: totalAmount - 0.01, lte: totalAmount + 0.01 };
+    }
+
     if (excludeId) where.NOT = { id: excludeId };
 
     return prisma.invoice.findFirst({

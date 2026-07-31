@@ -27,8 +27,13 @@ const uploadInvoiceFile = async (file) => {
     throw err;
   }
 
-  // 3. Duplicate Detection Check (Issue #1: Return HTTP 409 Conflict if duplicate exists)
-  const duplicate = await invoiceRepository.findDuplicate(extractedData.invoiceNumber, extractedData.supplierName);
+  // 3. Duplicate Detection Check (Supplier + InvoiceNumber + Date + TotalAmount)
+  const duplicate = await invoiceRepository.findDuplicate(
+    extractedData.invoiceNumber,
+    extractedData.supplierName,
+    extractedData.invoiceDate,
+    extractedData.totalAmount
+  );
   if (duplicate) {
     if (logger && logger.warn) logger.warn(`[InvoiceService] Duplicate invoice upload blocked! Invoice #${extractedData.invoiceNumber} from '${extractedData.supplierName}' already exists.`);
     
@@ -39,7 +44,7 @@ const uploadInvoiceFile = async (file) => {
       // Ignore unlink error
     }
 
-    throw new ConflictError(`Duplicate Invoice: Invoice #${extractedData.invoiceNumber} from supplier '${extractedData.supplierName}' already exists.`);
+    throw new ConflictError(`Duplicate Invoice: Invoice #${extractedData.invoiceNumber} from supplier '${extractedData.supplierName}' with total $${extractedData.totalAmount} already exists.`);
   }
 
   // 4. Save Invoice, Line Items, and Auto-Create Expense in Single Atomic Prisma Transaction
@@ -82,9 +87,15 @@ const processInvoice = async (id) => {
     const extractedData = await invoiceParser.parseOCRTextToJSON(rawText);
 
     // 3. Check for Duplicate Invoice
-    const duplicate = await invoiceRepository.findDuplicate(extractedData.invoiceNumber, extractedData.supplierName, id);
+    const duplicate = await invoiceRepository.findDuplicate(
+      extractedData.invoiceNumber,
+      extractedData.supplierName,
+      extractedData.invoiceDate,
+      extractedData.totalAmount,
+      id
+    );
     if (duplicate) {
-      throw new ConflictError(`Duplicate Invoice: Invoice #${extractedData.invoiceNumber} from supplier '${extractedData.supplierName}' already exists.`);
+      throw new ConflictError(`Duplicate Invoice: Invoice #${extractedData.invoiceNumber} from supplier '${extractedData.supplierName}' with total $${extractedData.totalAmount} already exists.`);
     }
 
     const invoiceUpdateData = {

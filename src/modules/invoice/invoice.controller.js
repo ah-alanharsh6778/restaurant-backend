@@ -2,11 +2,21 @@ const asyncHandler = require('../../utils/asyncHandler');
 const invoiceService = require('./invoice.service');
 
 const uploadInvoice = asyncHandler(async (req, res) => {
-  const invoice = await invoiceService.uploadInvoiceFile(req.file);
+  const files = req.files && req.files.length > 0 ? req.files : (req.file ? [req.file] : []);
+  if (files.length === 0) {
+    return res.status(400).json({ success: false, message: 'No invoice files uploaded' });
+  }
+
+  const results = [];
+  for (const file of files) {
+    const invoice = await invoiceService.uploadInvoiceFile(file);
+    results.push(invoice);
+  }
+
   return res.status(201).json({
     success: true,
-    message: 'Invoice file uploaded successfully',
-    data: invoice
+    message: `${results.length} invoice file(s) uploaded & processed with OCR and AI extraction`,
+    data: results.length === 1 ? results[0] : results
   });
 });
 

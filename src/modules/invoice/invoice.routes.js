@@ -8,8 +8,8 @@ const router = express.Router();
 
 router.use(authenticateToken);
 
-// Upload & AI OCR Processing Routes
-router.post('/upload', authorizeRoles('ADMIN', 'MANAGER'), uploadInvoice.single('file'), invoiceController.uploadInvoice);
+// Upload & AI OCR Processing Routes (supports 'file' or 'invoices' fields)
+router.post('/upload', authorizeRoles('ADMIN', 'MANAGER'), uploadInvoice.any(), invoiceController.uploadInvoice);
 router.post('/:id/process', authorizeRoles('ADMIN', 'MANAGER'), invoiceController.processInvoice);
 router.post('/:id/reprocess', authorizeRoles('ADMIN', 'MANAGER'), invoiceController.reprocessInvoice);
 

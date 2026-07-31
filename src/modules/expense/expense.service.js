@@ -138,81 +138,21 @@ const deleteExpense = async (id) => {
   return { id };
 };
 
+const invoiceService = require('../invoice/invoice.service');
+
 // Invoice Upload & AI OCR Integration Service
 const processUploadedInvoices = async (files) => {
   if (!files || !Array.isArray(files) || files.length === 0) {
     throw new BadRequestError('No invoice files uploaded');
   }
 
-  const createdExpenses = [];
-
+  const createdInvoices = [];
   for (const file of files) {
-    let ocrData = {
-      supplierName: null,
-      invoiceNumber: 'INV-' + Date.now() + '-' + Math.floor(1000 + Math.random() * 9000),
-      invoiceDate: new Date(),
-      subtotal: 100.0,
-      tax: 18.0,
-      total: 118.0
-    };
-
-    try {
-      const formData = new FormData();
-      formData.append('file', fs.createReadStream(file.path), file.originalname);
-
-      const aiResponse = await axios.post('http://localhost:8000/process-invoice', formData, {
-        headers: formData.getHeaders(),
-        timeout: 5000
-      });
-
-      if (aiResponse.data && aiResponse.data.data) {
-        const extracted = aiResponse.data.data;
-        if (extracted.invoiceNumber) ocrData.invoiceNumber = extracted.invoiceNumber;
-        if (extracted.invoiceDate) ocrData.invoiceDate = new Date(extracted.invoiceDate);
-        if (extracted.subtotal) ocrData.subtotal = parseFloat(extracted.subtotal);
-        if (extracted.tax) ocrData.tax = parseFloat(extracted.tax);
-        if (extracted.total) ocrData.total = parseFloat(extracted.total);
-        if (extracted.supplierName) ocrData.supplierName = extracted.supplierName;
-      }
-    } catch (aiErr) {
-      // Fallback defaults applied if AI FastAPI service is offline
-    }
-
-    let supplierId = null;
-    if (ocrData.supplierName) {
-      let supplier = await prisma.supplier.findUnique({
-        where: { name: ocrData.supplierName }
-      });
-      if (!supplier) {
-        supplier = await prisma.supplier.create({
-          data: {
-            name: ocrData.supplierName,
-            contactPerson: 'Auto-extracted',
-            phone: '0000000000',
-            email: 'vendor_' + Date.now() + '@extracted.com',
-            address: 'Auto-extracted'
-          }
-        });
-      }
-      supplierId = supplier.id;
-    }
-
-    const expense = await expenseRepository.createExpense({
-      supplierId,
-      invoiceNumber: ocrData.invoiceNumber,
-      invoiceDate: ocrData.invoiceDate,
-      amount: ocrData.subtotal,
-      tax: ocrData.tax,
-      total: ocrData.total,
-      status: 'PROCESSED',
-      filePath: file.path.replace(/\\/g, '/'),
-      remarks: 'Processed via AI OCR'
-    });
-
-    createdExpenses.push(new ExpenseDTO(expense));
+    const invoice = await invoiceService.uploadInvoiceFile(file);
+    createdInvoices.push(invoice);
   }
 
-  return createdExpenses;
+  return createdInvoices;
 };
 
 // Excel Export Service
