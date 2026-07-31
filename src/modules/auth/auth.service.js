@@ -15,9 +15,29 @@ const registerUser = async (userData) => {
     throw new BadRequestError('Email already registered');
   }
 
-  const role = await prisma.role.findUnique({
-    where: { id: roleId }
-  });
+  let role = null;
+  if (roleId) {
+    const isUuid = /^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$/i.test(roleId);
+    if (isUuid) {
+      role = await prisma.role.findUnique({ where: { id: roleId } });
+    }
+    if (!role) {
+      role = await prisma.role.findFirst({
+        where: {
+          OR: [
+            { name: String(roleId).toUpperCase() },
+            { name: { equals: String(roleId), mode: 'insensitive' } }
+          ]
+        }
+      });
+    }
+  }
+
+  if (!role) {
+    role = await prisma.role.findFirst({ where: { name: 'WAITER' } }) ||
+           await prisma.role.findFirst({ where: { name: 'STAFF' } }) ||
+           await prisma.role.findFirst();
+  }
 
   if (!role) {
     throw new NotFoundError('Role not found');
@@ -31,7 +51,7 @@ const registerUser = async (userData) => {
       email,
       password: hashedPassword,
       phone: phone || null,
-      roleId
+      roleId: role.id
     },
     include: {
       role: true
