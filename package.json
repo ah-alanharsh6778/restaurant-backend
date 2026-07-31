@@ -6,7 +6,13 @@
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js",
+    "build": "npx prisma generate && npx prisma migrate deploy",
+    "db:deploy": "npx prisma migrate deploy",
+    "db:seed": "node prisma/seed.js",
     "postinstall": "npx prisma generate"
+  },
+  "prisma": {
+    "seed": "node prisma/seed.js"
   },
   "keywords": [
     "restaurantos",

@@ -1,0 +1,34 @@
+# Render Blueprint Specification for RestaurantOS Backend
+# https://render.com/docs/blueprint-spec
+
+services:
+  - type: web
+    name: restaurant-backend
+    runtime: node
+    plan: starter # Options: free, starter, standard
+    region: singapore # Options: singapore, oregon, ohio, frankfurt
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: PORT
+        value: 10000
+      - key: DATABASE_URL
+        sync: false # Set your PostgreSQL connection string in the Render Dashboard or link a Render Postgres DB
+      - key: JWT_SECRET
+        generateValue: true
+      - key: JWT_EXPIRES_IN
+        value: 1d
+      - key: REFRESH_TOKEN_EXPIRES_IN
+        value: 7d
+      - key: ALLOWED_ORIGINS
+        value: https://your-frontend.onrender.com,http://localhost:5173,http://localhost:3000
+
+# Optional: Uncomment below if you want Render to provision a PostgreSQL database automatically
+# databases:
+#   - name: restaurantos-db
+#     databaseName: restaurant_os
+#     user: postgres
+#     plan: free # or starter
