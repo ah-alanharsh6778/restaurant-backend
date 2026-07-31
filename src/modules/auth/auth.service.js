@@ -24,10 +24,7 @@ const registerUser = async (userData) => {
     if (!role) {
       role = await prisma.role.findFirst({
         where: {
-          OR: [
-            { name: String(roleId).toUpperCase() },
-            { name: { equals: String(roleId), mode: 'insensitive' } }
-          ]
+          name: String(roleId).toUpperCase().trim()
         }
       });
     }
